@@ -9,4 +9,7 @@
         <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     </project>
 
+    <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" revision="lineage-22.1" remote="github" clone-depth="1" />
+    <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" revision="lineage-22.1" remote="github" />
+
 </manifest>
